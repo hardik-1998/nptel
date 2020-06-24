@@ -19,6 +19,7 @@ connection.connect(function(error){
        }
 });
 var app = express();
+app.set('port',(process.env.PORT || 5000));
 app.use(express.static("public"));
 app.use(body.urlencoded({ extended: false }))
 
@@ -100,6 +101,6 @@ app.get("/loginsuccess", function (req, res) {
 
 });
 
-app.listen(8080, function () {
+app.listen(app.get('port'), function () {
     console.log("Server is running on port 8080");
 });
