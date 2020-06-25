@@ -246,6 +246,11 @@ h6 {
 /* ==========================================================================
    #BUTTON
    ========================================================================== */
+
+
+
+
+
 .btn {
   display: inline-block;
   line-height: 50px;
@@ -256,7 +261,7 @@ h6 {
   transition: all 0.4s ease;
   cursor: pointer;
   font-size: 18px;
-  color: rgb(53, 131, 204)160, 151, 151);
+  color: rgb(0, 0, 0);
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
@@ -270,6 +275,7 @@ h6 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  background-color: #ffdb58;
 }
 
 .btn--pill {
@@ -287,11 +293,11 @@ h6 {
 }
 
 .btn--blue {
-  background: #4272d7;
+  background-color: #008CBA;
 }
 
 .btn--blue:hover {
-  background: #3868cd;
+  background-color: #ffdb58;
 }
 
 /* ==========================================================================
